@@ -1,0 +1,37 @@
+[
+  {
+    "Title": "Paperonic",
+    "Subtitle": "Present your ideas to make an impact",
+    "ImageUrl": "/Assets/DataImages/ppt2.jpg",
+    "Description": "This platform is to expose your talent and in-depth knowledge on your interest areas.Come,Chill out of the hearts of the people with your innovative presentations.\r\n\r\nSend your papers to - ppt@crypto2k16.com ",
+    "_id": "57a0a95ab2fc310398ae6030"
+  },
+  {
+    "Title": "Technical Quiz",
+    "Subtitle": "Before anything else ,preparation is the key to success. - Alexander Graham Bell.",
+    "ImageUrl": "/Assets/DataImages/tech.jpg",
+    "Description": "Pencil ? Check !.Sharpened? Check !. No Seriously is it pointy ?. Cryptians,it is time to rejoice as the Cryptians Techniche's module is here to draw out technical finesse and eloquence from every corner of the your brain.\r\n\r\n\r\n\r\n\r\n",
+    "_id": "57a0a95ab2fc310398ae6031"
+  },
+  {
+    "Title": "Web Designing",
+    "Subtitle": "Design the pages more attractive",
+    "ImageUrl": "/Assets/DataImages/web.png",
+    "Description": "The best programmers are not marginally better than merely good ones.They are an order-of-magnitude better ,measured by whatever standard: conceptual creativity,speed,ingenuity of design,or problem-solving ability\r\n\r\nSharpen your coding  styles to catch away the exciting prizes.",
+    "_id": "57a0a95ab2fc310398ae6032"
+  },
+  {
+    "Title": "Surf IT",
+    "Subtitle": "Search the Treasure ",
+    "ImageUrl": "/Assets/DataImages/surfit.jpg",
+    "Description": "Are you the Indian version of Indiana Jones?\r\n\r\nThen you are at the right door for your Technical Hunting!. Dont underestimate the power of Living Jones in our Campus.Come ! compete with us and take away the treasure especially designed for you! ",
+    "_id": "57a0a95ab2fc310398ae6033"
+  },
+  {
+    "Title": "Seg Fault",
+    "Subtitle": "Clear or Bugger off!",
+    "ImageUrl": "/Assets/DataImages/debugging-bugs.jpg",
+    "Description": "\r\n\r\nWe make programmers face their worst nightmares!. If you have the experience and patience ,come and conquer it all.Go through a series of questions and find out the errors in them .In this event,you either win or get bitten by bugs!\r\n\r\n\r\n",
+    "_id": "57a0a95ab2fc310398ae6034"
+  }
+]

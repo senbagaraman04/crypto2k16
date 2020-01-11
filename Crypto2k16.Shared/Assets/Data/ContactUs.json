@@ -1,0 +1,16 @@
+[
+  {
+    "MenuType": "DeepLink",
+    "Title": "Location",
+    "Icon": "/Assets/DataImages/bingmaps.png",
+    "Target": "bingmaps:?collection=point.12.717900276184082_77.86985778808594_&lvl=18",
+    "_id": "e4aa2e5e-b4ba-48f2-b259-b8197e7cdfcb"
+  },
+  {
+    "MenuType": "DeepLink",
+    "Title": "Email us",
+    "Icon": "/Assets/DataImages/mailto.png",
+    "Target": "mailto:info@crypto2k16.com",
+    "_id": "719a5005-eabd-4f9d-b2e7-67fc78a3e963"
+  }
+]
