@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" 
+         xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" 
+         xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" 
+         xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+         xmlns:appstudio="http://schemas.microsoft.com/developer/appx/2015/appstudio" 
+         IgnorableNamespaces="appstudio">
+  <Identity Name="11753senbagaraman.Crypto2k16" Publisher="CN=8F4C33DC-BEDF-4CF9-9BB2-FC7694843D5C" Version="1.0.7.0" />
+
+  <mp:PhoneIdentity PhoneProductId="a32f84e3-7fa2-4793-89f5-648fc613c8de" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>Crypto2k16</DisplayName>
+    <PublisherDisplayName>senbagaraman</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Crypto2k16.App">
+      <m3:VisualElements DisplayName="Crypto2k16" Description="Crypto2k16 is a Technological Fest organized by the Department of Computer Science and Engineering, Adhiyamaan College of Engineering(Autonomous), Hosur, Tamilnadu,India.Fest Date: Sepetember 2 &amp; 3 2016"
+          Square150x150Logo="Assets\Logo.png"
+          Square44x44Logo="Assets\SmallLogo.png"
+          ForegroundText="dark"
+          BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="Crypto2k16">
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+            <m3:ShowOn Tile="wide310x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#f5f5f5"/>
+        <m3:ApplicationView MinWidth="width320"/>
+        <!--Used in XAML Designer. DO NOT REMOVE-->
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+
+    </Application>
+  </Applications>
+
+  <!-- Microphone capability required for TextToSpeech -->
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+    
+  <appstudio:Metadata>
+    <appstudio:Item Name="appId" Value="a32f84e3-7fa2-4793-89f5-648fc613c8de" />
+    <appstudio:Item Name="model" Version="1.11.1" />
+    <appstudio:Item Name="formula" Value="Win81" Version="1.12.0830.1" />
+    <appstudio:Item DataSource="Html" Version="1.0.1"/>
+    <appstudio:Item DataSource="Collection" Version="1.0.1"/>
+    <appstudio:Item DataSource="Menu" Version="1.0.1"/>
+  </appstudio:Metadata>
+</Package>
